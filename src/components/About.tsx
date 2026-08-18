@@ -49,7 +49,7 @@ export function About() {
           <div className="about-image-wrapper absolute inset-0 bg-light-sage">
             <Image 
               src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" 
-              alt="Alex baking in the studio" 
+              alt="Aisha baking in the studio" 
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -59,14 +59,14 @@ export function About() {
 
         <div className="flex flex-col justify-center max-w-xl">
           <h2 className="about-text text-5xl md:text-7xl font-serif mb-8 leading-none">
-            MADE BY <br/> ALEX
+            MADE BY <br/> AISHA
           </h2>
           <div className="about-text space-y-6 text-lg font-light opacity-90">
             <p>
-              It started with a simple belief: vegan desserts shouldn&apos;t be a compromise. They should be a celebration.
+              It started with a simple belief: desserts shouldn&apos;t be a compromise. They should be a celebration.
             </p>
             <p>
-              Every cake that leaves our Sydney studio is handcrafted in small batches, focusing on imaginative design and flavour profiles that linger long after the last bite.
+              Every cake that leaves our Birmingham studio is handcrafted in small batches, focusing on imaginative design and flavour profiles that linger long after the last bite.
             </p>
             <p className="font-serif italic text-2xl pt-4 text-earth-green">
               &quot;Baking is my love language. This is how I speak it.&quot;

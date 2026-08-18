@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
   {
-    quote: "Alex turned our idea into the most beautiful cake we've ever had — and it tasted even better.",
+    quote: "Aisha turned our idea into the most beautiful cake we've ever had — and it tasted even better.",
     name: "Sarah & James",
     event: "Wedding",
   },
@@ -20,7 +20,7 @@ const testimonials = [
     event: "30th Birthday",
   },
   {
-    quote: "I never thought a vegan cake could be this rich and decadent. A true work of art.",
+    quote: "I never thought a cake could be this rich and decadent. A true work of art.",
     name: "David L.",
     event: "Anniversary",
   }

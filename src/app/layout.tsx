@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Alx Bakehouse | Sydney",
-  description: "100% vegan cakes & desserts, handmade in Sydney by Alex.",
+  title: "Temptations To Go | Birmingham",
+  description: "Luxurious bakes & desserts, handmade in Birmingham by Aisha.",
 };
 
 export default function RootLayout({

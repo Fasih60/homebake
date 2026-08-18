@@ -59,7 +59,7 @@ export function FinalCTA() {
         </h2>
         
         <p className="final-cta-text text-lg md:text-xl font-light mb-16 opacity-90 max-w-xl mx-auto">
-          Custom vegan cakes and desserts, handmade in Sydney.
+          Custom luxurious bakes and desserts, handmade in Birmingham.
         </p>
 
         <button 

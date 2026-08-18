@@ -32,17 +32,19 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-24">
           <div className="md:col-span-2">
-            <h3 className="footer-element text-4xl font-serif mb-6">ALX BAKEHOUSE</h3>
+            <h3 className="footer-element text-4xl font-serif mb-6">TEMPTATIONS TO GO</h3>
             <p className="footer-element text-sm opacity-70 max-w-sm">
-              100% vegan cakes and desserts, handmade in Sydney. A little piece of art made to be eaten.
+              Luxurious bakes and desserts, handmade in Birmingham. 
+              <br/>🌟 5 Star Hygiene Rating | 🔒 Registered + Insured
+              <br/>🚫 Do Not Cater for Allergies
             </p>
           </div>
           
           <div>
             <h4 className="footer-element text-xs tracking-widest uppercase mb-6 text-earth-green">Contact</h4>
             <ul className="space-y-4 text-sm opacity-90">
-              <li className="footer-element"><a href="#" className="hover:text-earth-green transition-colors">hello@alxbakehouse.com</a></li>
-              <li className="footer-element">Sydney, Australia</li>
+              <li className="footer-element"><a href="#" className="hover:text-earth-green transition-colors">💌 Order via DM</a></li>
+              <li className="footer-element">Birmingham, UK</li>
             </ul>
           </div>
 
@@ -57,7 +59,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-cream/10 text-xs opacity-50">
-          <p className="footer-element mb-4 md:mb-0">© 2026 Alx Bakehouse. All rights reserved.</p>
+          <p className="footer-element mb-4 md:mb-0">© 2026 Temptations To Go. All rights reserved.</p>
           <div className="footer-element flex space-x-6">
             <a href="#" className="hover:text-cream transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-cream transition-colors">Terms of Service</a>

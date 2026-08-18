@@ -65,7 +65,7 @@ export function Navbar() {
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
           {/* Logo */}
           <a href="#" className="font-serif text-xl tracking-widest font-bold">
-            ALX BAKEHOUSE
+            TEMPTATIONS TO GO
           </a>
 
           {/* Desktop Nav */}

@@ -74,7 +74,7 @@ export function FeaturedCollection() {
             THE SWEET <br className="hidden md:block"/> COLLECTION
           </h2>
           <p className="max-w-xs mt-6 md:mt-0 text-sm tracking-wide uppercase opacity-70">
-            Handcrafted daily using 100% vegan ingredients.
+            Handcrafted daily using luxurious ingredients.
           </p>
         </div>
 

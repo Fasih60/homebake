@@ -50,7 +50,7 @@ export function BrandStatement() {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} id="about" className="py-32 px-6 md:px-12 bg-espresso text-cream">
+    <section ref={containerRef} id="about" className="pt-48 pb-32 px-6 md:px-12 bg-espresso text-cream">
       <div className="container mx-auto flex flex-col items-center text-center">
         <h2 ref={textRef} className="text-5xl md:text-7xl lg:text-8xl font-serif leading-[1.1] mb-16 max-w-5xl">
           <div className="overflow-hidden pb-2"><span className="statement-line block">Not just dessert.</span></div>
@@ -59,7 +59,7 @@ export function BrandStatement() {
         </h2>
         
         <p ref={pRef} className="max-w-2xl text-lg md:text-xl font-light leading-relaxed opacity-90">
-          Alx Bakehouse creates 100% vegan cakes and desserts in Sydney, combining playful design, thoughtful ingredients and flavours worth coming back for.
+          Temptations To Go creates luxurious bakes and desserts in Birmingham, combining playful design, thoughtful ingredients and flavours worth coming back for.
         </p>
       </div>
     </section>

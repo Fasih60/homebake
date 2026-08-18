@@ -7,7 +7,7 @@ import gsap from "gsap";
 export function Marquee() {
   const marqueeRef = useRef<HTMLDivElement>(null);
   
-  const text = "VEGAN • HANDMADE • SYDNEY • CELEBRATIONS • CAKES • DESSERTS • ";
+  const text = "LUXURIOUS • HANDMADE • BIRMINGHAM • CELEBRATIONS • CAKES • DESSERTS • ";
 
   useGSAP(() => {
     gsap.to(".marquee-inner", {

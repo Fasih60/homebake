@@ -54,13 +54,13 @@ export function Hero() {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="relative h-screen w-full flex flex-col justify-center overflow-hidden bg-espresso">
+    <section ref={containerRef} className="relative min-h-screen w-full flex flex-col justify-center overflow-hidden bg-espresso pt-8 pb-12">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div ref={imgWrapperRef} className="absolute inset-0 w-full h-[120%] -top-[10%]">
           <Image 
             src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=2000&auto=format&fit=crop" 
-            alt="Premium vegan chocolate cake" 
+            alt="Premium chocolate cake" 
             fill
             priority
             className="object-cover opacity-60"
@@ -71,9 +71,9 @@ export function Hero() {
       </div>
       
       {/* Content */}
-      <div className="container mx-auto px-6 md:px-12 z-10 relative mt-32 lg:mt-48">
+      <div className="container mx-auto px-6 md:px-12 z-10 relative pt-24 lg:pt-32">
         <div className="max-w-5xl text-cream">
-          <h1 ref={textRef} className="text-6xl md:text-8xl lg:text-[9rem] font-serif leading-[0.9] tracking-tight uppercase">
+          <h1 ref={textRef} className="text-6xl md:text-8xl lg:text-[7rem] xl:text-[8.5rem] font-serif leading-[0.9] tracking-tight uppercase">
             <div className="overflow-hidden pb-2"><span className="hero-line block">Cakes</span></div>
             <div className="overflow-hidden pb-2"><span className="hero-line block text-light-sage italic pr-4">Made</span></div>
             <div className="overflow-hidden pb-2"><span className="hero-line block pl-8 md:pl-16">With</span></div>
@@ -82,14 +82,14 @@ export function Hero() {
           
           <div className="mt-12 md:mt-24 max-w-sm" ref={metaRef}>
             <p className="text-lg md:text-xl font-light leading-relaxed mb-6">
-              100% vegan cakes & desserts, handmade in Sydney by Alex.
+              Luxurious bakes & desserts, handmade in Birmingham by Aisha.
             </p>
             <div className="flex flex-wrap gap-4 text-xs tracking-widest uppercase opacity-80">
-              <span>Sydney</span>
+              <span>Birmingham</span>
               <span>•</span>
-              <span>100% Vegan</span>
+              <span>5 Star Hygiene</span>
               <span>•</span>
-              <span>Made by Alex</span>
+              <span>Made by Aisha</span>
             </div>
           </div>
         </div>
