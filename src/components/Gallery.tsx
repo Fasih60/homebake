@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -20,9 +21,9 @@ export function Gallery() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
-    const items = gsap.utils.toArray(".gallery-item");
+    const items = gsap.utils.toArray<HTMLElement>(".gallery-item");
     
-    items.forEach((item: any, i) => {
+    items.forEach((item, i) => {
       // Parallax effect
       gsap.to(item, {
         yPercent: i % 2 === 0 ? -10 : 10,
@@ -65,10 +66,12 @@ export function Gallery() {
           {images.map((img, idx) => (
             <div key={idx} className={`gallery-item relative overflow-hidden group ${img.className}`}>
               <div className="absolute inset-0 bg-espresso/5">
-                <img 
+                <Image 
                   src={img.src} 
                   alt={`Gallery image ${idx + 1}`} 
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                  fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
               </div>
               <div className="absolute inset-0 bg-espresso/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">

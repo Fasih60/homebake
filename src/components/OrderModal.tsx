@@ -65,7 +65,7 @@ export function OrderModal({ isOpen, onClose }: OrderModalProps) {
         <div className="mb-10 text-center">
           <h2 className="text-3xl md:text-4xl font-serif mb-2">Made for Your Moment</h2>
           <p className="text-sm text-espresso/70">
-            Tell us about your celebration and we'll create something special.
+            Tell us about your celebration and we&apos;ll create something special.
           </p>
         </div>
 
