@@ -91,7 +91,7 @@ export function Navbar() {
 
           {/* Mobile Toggle */}
           <button
-            className="md:hidden z-50 relative"
+            className={`md:hidden z-50 relative ${isMobileMenuOpen ? "text-espresso" : ""}`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
